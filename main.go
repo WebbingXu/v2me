@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+	beego.SetStaticPath("/mdeditor", "mdeditor")
+
 	beego.Run()
 }
 

@@ -6,5 +6,8 @@ import (
 )
 
 func init() {
-    beego.Router("/", &controllers.MainController{})
+
+	beego.Router("/", &controllers.MainController{}, "get:Home")
+	beego.Router("/edit", &controllers.MainController{}, "get:Edit")
+	beego.Router("/get_edit", &controllers.MainController{}, "post:GetEditContent")
 }
