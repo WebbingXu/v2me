@@ -2,11 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ed0d33-79fd-4922-b341-d717e75de206" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/default.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routers/router.go" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/@links.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/auto-height.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/change-mode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/code-fold.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/custom-keyboard-shortcuts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/custom-toolbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/define-plugin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/delay-renderer-preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/dynamic-create-editormd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/emoji.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/extends.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/external-use.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/flowchart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/form-get-value.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/full.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/goto-line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/html-preview-markdown-to-html-custom-toc-container.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/html-preview-markdown-to-html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/html-tags-decode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/image-cross-domain-upload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/image-upload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/images/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/images/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/images/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/images/editormd-screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/katex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/manually-load-modules.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/multi-editormd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/multi-languages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/on-off.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/onchange.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/onfullscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/onload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/onpreviewing-onpreviewed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/onresize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/onscroll-onpreviewscroll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/onwatch-onunwatch.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/page-break.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/php/cross-domain-upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/php/editormd.uploader.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/php/post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/php/upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/php/upload_callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/readonly.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/resettings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/search-replace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/sequence-diagram.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/set-get-replace-selection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/sync-scrolling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/task-lists.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/test.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/themes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/toolbar-auto-fixed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/use-requirejs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/use-seajs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/use-zepto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/bootstrap-test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/codemirror-searchbox-test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/codemirror-test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/js/searchbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/katex-tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/marked-@at-test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/marked-emoji-test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/marked-heading-link-test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/marked-todo-list-test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/qunit/qunit-1.16.0.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/tests/qunit/qunit-1.16.0.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/markdown.go" afterPath="$PROJECT_DIR$/controllers/markdown.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdeditor/examples/simple.html" afterPath="$PROJECT_DIR$/mdeditor/examples/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/content_in_markdown.html" afterPath="$PROJECT_DIR$/views/content_in_markdown.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +115,8 @@
       <file leaf-file-name="markdown.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/markdown.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+            <state relative-caret-position="462">
+              <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
               <folding>
                 <element signature="e#21#65#0" expanded="true" />
               </folding>
@@ -598,7 +668,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -611,7 +680,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18340611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18340611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120192304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -794,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/markdown.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="462">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
           <folding>
             <element signature="e#21#65#0" expanded="true" />
           </folding>

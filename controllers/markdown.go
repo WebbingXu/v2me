@@ -26,6 +26,11 @@ func (c *MarkDownController) GetEditContent() {
 	}
 	c.Data["Content"] = Content
 
+
+
+
+
+
 	tmplete := `
 		<!DOCTYPE html>
 		<html lang="zh">
@@ -36,10 +41,13 @@ func (c *MarkDownController) GetEditContent() {
 		<script src="../mdeditor/examples/js/jquery.min.js"></script>
 		<script src="../mdeditor/editormd.min.js"></script>
 		</head>
-		<body>
+
+		<body >
+		<div style="border: 1px solid #000000; width: 300px; height: 500px;margin: 0 auto;">
 		`
 	tmplete += Content
 	tmplete += `
+		</div>
 		</body>
 		</html>
 		`
@@ -48,11 +56,6 @@ func (c *MarkDownController) GetEditContent() {
 		c.Ctx.WriteString("create file failed: " + err.Error())
 		return
 	}
-	//f, err := os.Open("./articles/a.html")
-	//if err != nil{
-	//	c.Ctx.WriteString("create file failed: " + err.Error())
-	//	return
-	//}
 	f.WriteString(tmplete)
 	f.Close()
 	c.Ctx.WriteString("ok")

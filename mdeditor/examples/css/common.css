@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="zh">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/common.css" />
-        <link rel="stylesheet" href="../css/editormd.css" />
-        <script src="js/jquery.min.js"></script>
-        <script src="../editormd.min.js"></script>
-        <script type="text/javascript">
-			var testEditor;
-            $(function() {
-                testEditor = editormd("test-editormd", {
-                    width   : "90%",
-                    height  : 640,
-                    syncScrolling : "single",
-                    path    : "../lib/"
-                });
-            });
-        </script>
-        <script type="text/javascript">
-        	function postData(){
-        		//var raw_content=document.getElementById("raw_edit").innerHTML;
-        		var content_in_markdown = document.getElementsByClassName('editormd-preview')[0].innerHTML
-        		$.post("/get_edit",{Content:content_in_markdown}, function(data){
-     								window.location.href ="../../articles/a.html"});
-        	}
-        </script>
-    	<style type="text/css">
+<style type="text/css">
     		.submit_button {
     			position: relative;
     			left: 40%;
@@ -80,14 +52,3 @@
 			}
 
     	</style>
-    </head>
-    <body>
-    <div id="layout">
-        <div id="test-editormd">
-            <textarea style="display:none;" id="raw_edit"></textarea>
-        </div>
-    </div> 
-    <div style="height: 130px"></div>
-    <button type="button" class="submit_button button_green" onclick="postData()">提交</button> 
-    </body>
-</html>
