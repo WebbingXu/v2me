@@ -7,7 +7,7 @@ import (
 
 func main() {
 	beego.SetStaticPath("/mdeditor", "mdeditor")
-
+	beego.SetStaticPath("/articles", "articles")
 	beego.Run()
 }
 

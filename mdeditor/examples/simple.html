@@ -19,8 +19,10 @@
         </script>
         <script type="text/javascript">
         	function postData(){
-        		var raw_content=document.getElementById("raw_edit").innerHTML;
-        		$.post("/get_edit",{content:raw_content});
+        		//var raw_content=document.getElementById("raw_edit").innerHTML;
+        		var content_in_markdown = document.getElementsByClassName('editormd-preview')[0].innerHTML
+        		$.post("/get_edit",{Content:content_in_markdown}, function(data){
+     								window.location.href ="../../articles/a.html"});
         	}
         </script>
     	<style type="text/css">
