@@ -20,30 +20,30 @@ func (c *MarkDownController) Edit() {
 
 func (c *MarkDownController) GetEditContent() {
 	Content := c.GetString("Content")
-	if Content == "" {
-		c.Ctx.WriteString("please input content")
-		return
-	}
-	c.Data["Content"] = Content
-
-
-
-
-
+	FileName := c.GetString("FileName")
 
 	tmplete := `
 		<!DOCTYPE html>
 		<html lang="zh">
 		<head>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" href="../mdeditor/examples/css/style.css" />
-		<link rel="stylesheet" href="../mdeditor/css/editormd.css" />
-		<script src="../mdeditor/examples/js/jquery.min.js"></script>
-		<script src="../mdeditor/editormd.min.js"></script>
+			<meta charset="utf-8" />
+			<link rel="stylesheet" href="../mdeditor/examples/css/style.css" />
+			<link rel="stylesheet" href="../mdeditor/css/editormd.css" />
+			<script src="../mdeditor/examples/js/jquery.min.js"></script>
+			<script src="../mdeditor/editormd.min.js"></script>
+			<style type="text/css">
+				.main_container{
+					margin:60px auto;
+				width:50%;
+				padding: 0px 30px 30px 30px;
+				text-align: center;
+				line-height: 200%;
+				background-color:white;
+				}
+			</style>
 		</head>
-
-		<body >
-		<div style="border: 1px solid #000000; width: 300px; height: 500px;margin: 0 auto;">
+		<body style="background-color:rgb(243,243,243)">
+		<div class="main_container">
 		`
 	tmplete += Content
 	tmplete += `
@@ -51,7 +51,7 @@ func (c *MarkDownController) GetEditContent() {
 		</body>
 		</html>
 		`
-	f, err := os.Create("./articles/a.html")
+	f, err := os.Create("./articles/" + FileName + ".html")
 	if err != nil{
 		c.Ctx.WriteString("create file failed: " + err.Error())
 		return
