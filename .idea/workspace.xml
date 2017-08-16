@@ -2,15 +2,463 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ed0d33-79fd-4922-b341-d717e75de206" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/BUGS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/CHANGE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/default_test.go" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/a.html" afterPath="$PROJECT_DIR$/articles/a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/markdown.go" afterPath="$PROJECT_DIR$/controllers/markdown.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdeditor/css/editormd.css" afterPath="$PROJECT_DIR$/mdeditor/css/editormd.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdeditor/examples/css/common.css" afterPath="$PROJECT_DIR$/mdeditor/examples/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdeditor/examples/simple.html" afterPath="$PROJECT_DIR$/mdeditor/examples/simple.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__v2me_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/markdown.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/Gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/css/editormd.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/css/editormd.logo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/css/editormd.logo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/css/editormd.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/css/editormd.preview.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/css/editormd.preview.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/editormd.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Bold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Bold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Bold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-BoldItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-BoldItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-BoldItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Italic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Italic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Italic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Light-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Light-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Light-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-LightItalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-LightItalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-LightItalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/fonts/OpenSans-Regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/scripts/linenumber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/scripts/prettify/Apache-License-2.0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/scripts/prettify/lang-css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/scripts/prettify/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/styles/jsdoc-default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/styles/prettify-jsdoc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/docs/styles/prettify-tomorrow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/editormd.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/editormd.amd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/editormd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/editormd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/css/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/js/require.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/js/sea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/js/seajs-main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/js/zepto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/fonts/editormd-logo.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/fonts/editormd-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/fonts/editormd-logo.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/fonts/editormd-logo.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/loading@2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/loading@3x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-favicon-16x16.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-favicon-24x24.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-favicon-32x32.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-favicon-48x48.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-favicon-64x64.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-120x120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-180x180.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-240x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-24x24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-320x320.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-48x48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-57x57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-64x64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/editormd-logo-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/images/logos/vi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/languages/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/languages/zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/comment/comment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/comment/continuecomment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/dialog/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/dialog/dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/display/fullscreen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/display/fullscreen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/display/panel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/display/placeholder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/display/rulers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/edit/closebrackets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/edit/closetag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/edit/continuelist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/edit/matchbrackets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/edit/matchtags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/edit/trailingspace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/fold/brace-fold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/fold/comment-fold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/fold/foldcode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/fold/foldgutter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/fold/foldgutter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/fold/indent-fold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/fold/markdown-fold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/fold/xml-fold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/hint/anyword-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/hint/css-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/hint/html-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/hint/javascript-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/hint/show-hint.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/hint/show-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/hint/sql-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/hint/xml-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/lint/coffeescript-lint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/lint/css-lint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/lint/javascript-lint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/lint/json-lint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/lint/lint.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/lint/lint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/lint/yaml-lint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/merge/merge.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/merge/merge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/mode/loadmode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/mode/multiplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/mode/multiplex_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/mode/overlay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/mode/simple.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/runmode/colorize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/runmode/runmode-standalone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/runmode/runmode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/runmode/runmode.node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/scroll/annotatescrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/scroll/scrollpastend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/scroll/simplescrollbars.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/scroll/simplescrollbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/search/match-highlighter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/search/matchesonscrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/search/matchesonscrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/search/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/search/searchcursor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/selection/active-line.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/selection/mark-selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/selection/selection-pointer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/tern/tern.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/tern/tern.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/tern/worker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addon/wrap/hardwrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/addons.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/codemirror.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/codemirror.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/lib/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/lib/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/apl/apl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/apl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/asterisk/asterisk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/asterisk/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/clike/clike.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/clike/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/clike/scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/clojure/clojure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/clojure/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/cobol/cobol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/cobol/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/coffeescript/coffeescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/coffeescript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/commonlisp/commonlisp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/commonlisp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/css/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/css/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/css/less.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/css/less_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/css/scss.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/css/scss_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/css/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/cypher/cypher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/cypher/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/d/d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/d/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/dart/dart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/dart/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/diff/diff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/diff/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/django/django.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/django/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/dockerfile/dockerfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/dockerfile/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/dtd/dtd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/dtd/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/dylan/dylan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/dylan/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/ebnf/ebnf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/ebnf/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/ecl/ecl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/ecl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/eiffel/eiffel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/eiffel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/erlang/erlang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/erlang/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/forth/forth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/forth/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/fortran/fortran.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/fortran/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/gas/gas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/gas/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/gfm/gfm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/gfm/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/gfm/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/gherkin/gherkin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/gherkin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/go/go.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/go/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/groovy/groovy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/groovy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/haml/haml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/haml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/haml/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/haskell/haskell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/haskell/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/haxe/haxe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/haxe/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/htmlembedded/htmlembedded.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/htmlembedded/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/htmlmixed/htmlmixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/htmlmixed/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/http/http.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/http/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/idl/idl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/idl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/jade/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/jade/jade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/javascript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/javascript/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/javascript/json-ld.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/javascript/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/javascript/typescript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/jinja2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/jinja2/jinja2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/julia/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/julia/julia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/kotlin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/kotlin/kotlin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/livescript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/livescript/livescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/lua/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/lua/lua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/markdown/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/markdown/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/meta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/mirc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/mirc/mirc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/mllike/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/mllike/mllike.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/modelica/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/modelica/modelica.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/nginx/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/nginx/nginx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/ntriples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/ntriples/ntriples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/octave/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/octave/octave.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/pascal/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/pascal/pascal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/pegjs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/pegjs/pegjs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/perl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/perl/perl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/php/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/php/php.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/php/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/pig/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/pig/pig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/properties/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/properties/properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/puppet/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/puppet/puppet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/python/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/python/python.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/q/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/q/q.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/r/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/r/r.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/rpm/changes/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/rpm/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/rpm/rpm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/rst/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/rst/rst.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/ruby/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/ruby/ruby.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/ruby/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/rust/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/rust/rust.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/sass/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/sass/sass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/scheme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/scheme/scheme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/shell/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/shell/shell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/shell/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/sieve/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/sieve/sieve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/slim/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/slim/slim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/slim/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/smalltalk/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/smalltalk/smalltalk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/smarty/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/smarty/smarty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/smartymixed/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/smartymixed/smartymixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/solr/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/solr/solr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/soy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/soy/soy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/sparql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/sparql/sparql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/spreadsheet/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/spreadsheet/spreadsheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/sql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/sql/sql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/stex/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/stex/stex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/stex/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/stylus/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/stylus/stylus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/tcl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/tcl/tcl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/textile/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/textile/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/textile/textile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/tiddlywiki/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/tiki/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/tiki/tiki.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/tiki/tiki.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/toml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/toml/toml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/tornado/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/tornado/tornado.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/turtle/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/turtle/turtle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/vb/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/vb/vb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/vbscript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/vbscript/vbscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/velocity/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/velocity/velocity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/verilog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/verilog/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/verilog/verilog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/xml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/xml/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/xml/xml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/xquery/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/xquery/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/xquery/xquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/yaml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/yaml/yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/z80/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/mode/z80/z80.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/modes.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/3024-day.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/3024-night.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/ambiance-mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/ambiance.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/base16-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/base16-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/blackboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/cobalt.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/colorforth.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/eclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/elegant.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/erlang-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/lesser-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/mbo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/mdn-like.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/midnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/monokai.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/neat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/neo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/night.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/paraiso-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/paraiso-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/pastel-on-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/rubyblue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/solarized.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/the-matrix.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/tomorrow-night-bright.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/tomorrow-night-eighties.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/twilight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/vibrant-ink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/xq-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/xq-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/codemirror/theme/zenburn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/flowchart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/jquery.flowchart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/marked.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/prettify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/raphael.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/sequence-diagram.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/lib/underscore.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/code-block-dialog/code-block-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/emoji-dialog/emoji-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/emoji-dialog/emoji.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/goto-line-dialog/goto-line-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/help-dialog/help-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/help-dialog/help.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/html-entities-dialog/html-entities-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/html-entities-dialog/html-entities.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/image-dialog/image-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/link-dialog/link-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/plugin-template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/preformatted-text-dialog/preformatted-text-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/reference-link-dialog/reference-link-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/table-dialog/table-dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/plugins/test-plugin/test-plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.codemirror.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.dialog.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.logo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.preview.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.preview.themes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.tab.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/editormd.themes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/github-markdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/lib/prefixes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/lib/variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/scss/prettify.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mdeditor/src/editormd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routers/markdown.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/reload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/require.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/sea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/seajs-main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/zepto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/v2me.iml" afterPath="$PROJECT_DIR$/.idea/v2me.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,38 +470,78 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="441">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
-                <element signature="e#14#70#0" expanded="true" />
+                <element signature="e#14#133#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_alias.go" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Go/src/github.com/astaxie/beego/orm/db_alias.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="204" column="5" lean-forward="false" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.go" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Go/src/github.com/astaxie/beego/template.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3171">
+              <caret line="165" column="16" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="markdown.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routers/markdown.go">
+        <entry file="file://$PROJECT_DIR$/src/controllers/markdown.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="777">
+              <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
-                <element signature="e#17#75#0" expanded="true" />
+                <element signature="e#21#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="markdown.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/markdown.go">
+      <file leaf-file-name="article.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/article.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <element signature="e#21#65#0" expanded="true" />
+                <element signature="e#16#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models_boot.go" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Go/src/github.com/astaxie/beego/orm/models_boot.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="305" column="5" lean-forward="false" selection-start-line="305" selection-start-column="5" selection-end-line="305" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="markdown.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routers/markdown.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,48 +549,8 @@
       <file leaf-file-name="file.go" pinned="false" current-in-tab="false">
         <entry file="file://D:/Go/src/os/file.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="5271">
               <caret line="254" column="5" lean-forward="false" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beego.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/beego.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/template.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="344" column="5" lean-forward="false" selection-start-line="344" selection-start-column="5" selection-end-line="344" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reload.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/reload.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/app.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="177" column="60" lean-forward="false" selection-start-line="177" selection-start-column="60" selection-end-line="177" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -111,18 +559,8 @@
       <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
         <entry file="file://D:/Go/src/net/http/server.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="53424">
               <caret line="2567" column="21" lean-forward="false" selection-start-line="2567" selection-start-column="21" selection-end-line="2567" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/controller.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -144,8 +582,13 @@
         <option value="$PROJECT_DIR$/routers/router.go" />
         <option value="$PROJECT_DIR$/controllers/default.go" />
         <option value="$PROJECT_DIR$/routers/markdown.go" />
-        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/const/const.go" />
+        <option value="$PROJECT_DIR$/common/common.go" />
         <option value="$PROJECT_DIR$/controllers/markdown.go" />
+        <option value="$PROJECT_DIR$/src/routers/markdown.go" />
+        <option value="$PROJECT_DIR$/src/controllers/markdown.go" />
+        <option value="$PROJECT_DIR$/src/models/article.go" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -174,7 +617,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -184,6 +626,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Go 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="v2me" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -198,35 +654,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v2me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v2me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v2me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v2me" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -244,7 +672,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,6 +728,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -602,6 +1067,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -614,10 +1080,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18340611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27510917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120192304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12126068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -645,52 +1111,98 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding>
-            <element signature="e#14#70#0" expanded="true" />
+            <element signature="e#14#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/router.go">
+    <entry file="file://$PROJECT_DIR$/src/routers/markdown.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/default.go">
+    <entry file="file://D:/Go/src/os/file.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="5271">
+          <caret line="254" column="5" lean-forward="false" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/beego.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="1281">
+          <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/reload.min.js">
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/app.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="3465">
+          <caret line="177" column="60" lean-forward="false" selection-start-line="177" selection-start-column="60" selection-end-line="177" selection-end-column="60" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53907">
+          <caret line="2567" column="21" lean-forward="false" selection-start-line="2567" selection-start-column="21" selection-end-line="2567" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/markdown.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="e#21#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go" />
+    <entry file="file://$PROJECT_DIR$/controllers/default.go" />
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/reload.min.js" />
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#70#0" expanded="true" />
+            <element signature="e#14#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -699,29 +1211,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/reload.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/reload.min.js" />
     <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/template.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="344" column="5" lean-forward="false" selection-start-line="344" selection-start-column="5" selection-end-line="344" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/beego.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="1281">
           <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
           <folding />
         </state>
@@ -729,7 +1232,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/app.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
+        <state relative-caret-position="3465">
           <caret line="177" column="60" lean-forward="false" selection-start-line="177" selection-start-column="60" selection-end-line="177" selection-end-column="60" />
           <folding />
         </state>
@@ -737,70 +1240,93 @@
     </entry>
     <entry file="file://D:/Go/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="53424">
           <caret line="2567" column="21" lean-forward="false" selection-start-line="2567" selection-start-column="21" selection-end-line="2567" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/default.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go" />
+    <entry file="file://$PROJECT_DIR$/controllers/default.go" />
     <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/controller.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="945">
           <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Go/src/os/file.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5271">
+          <caret line="254" column="5" lean-forward="false" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/markdown.go" />
+    <entry file="file://$PROJECT_DIR$/const/const.go" />
+    <entry file="file://$PROJECT_DIR$/common/common.go" />
+    <entry file="file://$PROJECT_DIR$/mdeditor/examples/simple.html" />
+    <entry file="file://$PROJECT_DIR$/controllers/markdown.go" />
+    <entry file="file://D:/Go/src/github.com/astaxie/beego/template.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3171">
+          <caret line="165" column="16" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Go/src/github.com/astaxie/beego/orm/models_boot.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="305" column="5" lean-forward="false" selection-start-line="305" selection-start-column="5" selection-end-line="305" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Go/src/github.com/astaxie/beego/orm/db_alias.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="204" column="5" lean-forward="false" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/markdown.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="e#21#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/article.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routers/markdown.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="441">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <element signature="e#14#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Go/src/os/file.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="254" column="5" lean-forward="false" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routers/markdown.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#17#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/markdown.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#65#0" expanded="true" />
+            <element signature="e#14#133#0" expanded="true" />
           </folding>
         </state>
       </provider>

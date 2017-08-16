@@ -1,0 +1,35 @@
+package common
+
+const(
+	ArticleTemplateFront = `
+		<!DOCTYPE html>
+		<html lang="zh">
+		<head>
+			<meta charset="utf-8" />
+			<link rel="stylesheet" href="../mdeditor/examples/css/style.css" />
+			<link rel="stylesheet" href="../mdeditor/css/editormd.css" />
+			<script src="../mdeditor/examples/js/jquery.min.js"></script>
+			<script src="../mdeditor/editormd.min.js"></script>
+			<style type="text/css">
+				.main_container{
+					margin:60px auto;
+				width:50%;
+				padding: 0px 30px 30px 30px;
+				text-align: center;
+				line-height: 200%;
+				background-color:white;
+				}
+			</style>
+		</head>
+		<body style="background-color:rgb(243,243,243)">
+		<div class="main_container">
+		`
+
+	ArticleTemplateRear =
+		`
+		</div>
+		</body>
+		</html>
+		`
+)
+
